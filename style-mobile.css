@@ -1,0 +1,27 @@
+@media (max-width: 762px) {
+    .container-main {
+        top: 20px;
+        align-items: start;
+    }
+    main {
+        grid-auto-flow: column;
+        grid-template-columns: 330px;
+        grid-template-rows: 250px 370px;
+    }
+
+    .desctop-img {
+        object-fit: cover;
+    }
+
+    .product-type, .product-name, .description, .price, .button-cart {
+    margin: 0 7% 0 7%;
+}
+
+    .product-name {
+        font-size: 32px;
+    }
+
+    .sale-price {
+        font-size: 32px;
+    }
+}
