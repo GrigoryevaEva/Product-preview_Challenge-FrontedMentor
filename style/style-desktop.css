@@ -7,12 +7,8 @@ body {
     background-color: hsl(30, 38%, 92%);
 }
 
-.container-main {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+.container {
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,6 +21,7 @@ main {
     border-radius: 10px;
     overflow: hidden;
 }
+
 
 .desctop-img {
     width: 100%;
@@ -48,22 +45,22 @@ section {
 .product-type {
     font-family: Montserrat;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: hsl(228, 12%, 48%);
 }
 
 .product-name {
     font-family: Fraunces;
     font-weight: 700;
-    font-size: 34px;
-    line-height: 36px;
+    font-size: 2.125rem;
+    line-height: 2.25rem;
     color: hsl(212, 21%, 14%);
 }
 
 .description {
     font-family: Montserrat;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: hsl(228, 12%, 48%);
 }
 
@@ -71,26 +68,36 @@ section {
     display: flex;
 }
 
-.sale-price {
+.new-price {
     font-family: Fraunces;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 2.125rem;
     color: hsl(158, 36%, 37%);
     margin-right: 15px;
+    text-decoration: none;
 }
 
-.full-price {
+.old-price {
     align-self: center;
     font-family: Montserrat;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: hsl(228, 12%, 48%);
-    text-decoration: line-through;
+}
+
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
 }
 
 .button-cart {
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
     color: hsl(0, 0%, 100%);
     background-color: hsl(158, 36%, 37%);
@@ -105,20 +112,15 @@ section {
     background-color: hsl(160, 33%, 18%);
 }
 
-.container-footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-}
+
 
 footer {
-    height: 16px;
+    height: 1rem;
 }
 
 .attribution { 
     font-family: Fraunces;
-    font-size: 11px; 
+    font-size: 	0.6875rem; 
     text-align: center;
     color: hsl(160, 33%, 18%); 
 }
