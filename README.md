@@ -11,6 +11,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Link](#link)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -40,6 +41,10 @@ Design sources:
 My solution:
 [Desktop](screenshots/Desktop.png)
 [Mobile](screenshots/Mobile.png)
+
+### Link
+
+[Project page](https://grigoryevaeva.github.io/Product-preview_Challenge-FrontedMentor/)
 
 ## My process
 
