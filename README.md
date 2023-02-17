@@ -59,6 +59,8 @@ My solution:
 
 ### What I learned
 
+**Version 1:**
+
 This is project was my first experience of adaptive design for the mobile format.
 In general, I have strengthened my existing knowledge of HTML and CSS.
 
@@ -83,6 +85,11 @@ Here I want to share my solution:
     left: 0;
 }
 ```
+**Version 2:**
+Thanks to active users FrontendMentor.io [Lidia](https://www.frontendmentor.io/profile/lidimi) and [Melvin Aguilar](https://www.frontendmentor.io/profile/MelvinAguilar). I improved my first solution. In the process of finalizing, I studied the following topics: 
+1) units of measurement (this solved my problem with positioning the element in the center of the web page);
+2) <p> and <h1>-<h6> tags;
+3) why the alt attribute is needed for the <img> tag.
 
 ### Continued development
 
