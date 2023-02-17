@@ -86,7 +86,7 @@ Here I want to share my solution:
 }
 ```
 **Version 2:**
-Thanks to active users [FrontendMentor.io](https://www.frontendmentor.io/) [Lidia](https://www.frontendmentor.io/profile/lidimi) and [Melvin Aguilar](https://www.frontendmentor.io/profile/MelvinAguilar). I improved my first solution. In the process of finalizing, I studied the following topics: 
+Thanks to active users [FrontendMentor.io](https://www.frontendmentor.io/) [**Lidia**](https://www.frontendmentor.io/profile/lidimi) and [**Melvin Aguilar**](https://www.frontendmentor.io/profile/MelvinAguilar). I improved my first solution. In the process of finalizing, I studied the following topics: 
 1) units of measurement (this solved my problem with positioning the element in the center of the web page);
 2) `<p>` and `<h1>-<h6>` tags;
 3) why the alt attribute is needed for the `<img>` tag.
