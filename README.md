@@ -44,7 +44,7 @@ My solution:
 
 ### Link
 
-[Project page](https://grigoryevaeva.github.io/Product-preview_Challenge-FrontedMentor/)
+[Project page](https://grigoryevaeva.github.io/product-preview/)
 
 ## My process
 
